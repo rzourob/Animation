@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.contient{
+    width:60%;
+    background-color: #e7e5e5;
+    height: auto;
+    margin: auto;
+}
+
+section{
+    background-color: rgb(61, 13, 183);
+    position: relative;
+}
+
+
+.animation-item{
+    position: relative;
+    padding: 5px 10px;
+}
+
+.animation-item-1{
+    width:15%;
+    height: 200px;
+    animation-name:movement;
+    animation-duration: 5s;
+    margin-bottom: 50px;
+
+}
+
+.animation-1{
+    position: relative;
+    animation-fill-mode: forwards;
+    margin-right:85%;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+}
+
+.anmation-des{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.anmation-info{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+}
+.anmation-start{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.anmation-start li{
+    display: inline-block;
+}
+
+.anmation-start i{
+    font-size: 25px;
+}
+
+.anmation-start li .icon:hover{
+   color: blue;
+}
+
+
+.animation-item-img{
+    margin: auto;
+    text-align: center;
+    background-size:cover;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+.animation-2{
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    margin-left: 85%;
+    animation-timing-function: linear;
+}
+
+.animation-3{
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    margin-right: 85%;
+    animation-timing-function: linear;
+}
+
+.animation-4{
+    animation-delay: 17s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    margin-left: 85%;
+    animation-timing-function: linear;
+}
+
+.animation-5{
+    animation-delay: 22s;
+    animation-fill-mode: forwards;
+    margin-right: 85%;
+    animation-timing-function: linear;
+}
+
+.animation-6{
+    animation-delay: 27s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    margin-left: 85%;
+    animation-timing-function: linear;
+} 
+
+@keyframes movement{
+
+    0% { margin-left:0; margin-right:85%; }
+
+    100% {margin-right: 0; margin-left:85%; }
+} 
